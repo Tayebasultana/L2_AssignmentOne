@@ -15,7 +15,7 @@ When you use the `any` type, **TypeScript allows you to do anything** with the v
 You can assign anything to an `any` type variable — a string, a number, or even a function.  
 But TypeScript will not warn you if you make a mistake — so it's risky!
 
-📌 **Keyword**: Use `any` only if you have no other choice. It removes the benefits of TypeScript.
+📌  Use `any` only if you have no other choice. It removes the benefits of TypeScript.
 
 ## ✅ `unknown` — Safe and Flexible
 
@@ -26,7 +26,7 @@ However, **the big difference** is that you **must check the type** before using
 If you get some data from an API, and you're not sure what type it is, use `unknown`.  
 Then check its type (e.g., string, number, object) before you use it.
 
-📌 **Keyword**: `unknown` is a **safer alternative** to `any`.
+📌  `unknown` is a **safer alternative** to `any`.
 
 ## 🔥 `never` — No Return Value
 
@@ -35,7 +35,7 @@ The `never` type is used to represent values that **never occur**. This happens 
 ### 📝 Example:
 A function that always throws an error should return `never`.
 
-📌 **Keyword**: `never` is used for **unreachable code** or **error functions**.
+📌  `never` is used for **unreachable code** or **error functions**.
 
 ## 🛠️ Summary Table
 
