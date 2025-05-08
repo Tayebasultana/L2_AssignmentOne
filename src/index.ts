@@ -1,7 +1,6 @@
 
 
 
-// Problem one
 function formatString(input: string, toUpper?: boolean): string {
     return toUpper === false ? input.toLocaleLowerCase() : input.toUpperCase();
 }
@@ -10,7 +9,6 @@ function formatString(input: string, toUpper?: boolean): string {
 
 
 
-// Problem two
 function filterByRating(items: { title: string; rating: number }[]): { title: string; rating: number }[] {
     return items.filter(item => item.rating >= 4);
 }
@@ -25,7 +23,6 @@ const topRatted = filterByRating(books);
 
 
 
-// Problem three
 function concatenateArrays<T>(...arrays: T[][]): T[]{
     return [].concat(...arrays);
 }
@@ -34,7 +31,6 @@ function concatenateArrays<T>(...arrays: T[][]): T[]{
 
 
 
-// Problem four
 class Vehicle {
    private make: string;
    private year:number;
@@ -67,7 +63,6 @@ const myCar = new Car("Toyota", 2020, "Corolla");
 
 
 
-// Problem five
 function processValue(value: string | number): number {
     if (typeof value === "string"){
         return value.length;
@@ -80,7 +75,6 @@ function processValue(value: string | number): number {
 
 
 
-// problem six
 interface Product {
     name: string;
     price: number;
@@ -112,7 +106,6 @@ interface Product {
 
 
 
-// Problem seven
 enum Day {
     Monday,
     Tuesday,
@@ -135,7 +128,6 @@ enum Day {
 
 
 
-// Problem eight
 async function squareAsync(n: number): Promise<number> {
     if (n < 0) {
         throw new Error ("Negative number not allowed");
