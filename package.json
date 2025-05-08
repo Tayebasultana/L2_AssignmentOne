@@ -1,0 +1,25 @@
+{
+  "name": "assignmentone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tayebasultana/L2_AssignmentOne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Tayebasultana/L2_AssignmentOne/issues"
+  },
+  "homepage": "https://github.com/Tayebasultana/L2_AssignmentOne#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
