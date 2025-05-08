@@ -15,3 +15,9 @@ const books = [
   ];
 const topRatted = filterByRating(books);
 // console.log(topRatted);
+
+// Problem three
+function concatenateArrays<T>(...arrays: T[][]): T[]{
+    return [].concat(...arrays);
+}
+// console.log(concatenateArrays([1, 2], [3, 4], [5]));
